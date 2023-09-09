@@ -14,7 +14,7 @@ int main(void)
 
 	for (hex_digit = '0'; hex_digit <= '9'; hex_digit++)
 	{
-		putchar(hex_digit);;
+		putchar(hex_digit);
 	}
 
 	for (hex_digit = 'a'; hex_digit <= 'f'; hex_digit++)
