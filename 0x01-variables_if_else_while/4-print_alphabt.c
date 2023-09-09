@@ -20,7 +20,6 @@ int main(void)
 		}
 		lower++;
 	}
-
 	putchar('\n');
 	
 	return (0);
