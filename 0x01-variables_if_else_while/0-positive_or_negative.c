@@ -22,17 +22,17 @@ int main(void)
 
 	if (n > 0)
 	{
-		puts("%d is positive", n);
+		printf("%d is positive\n", n);
 	}
 
 	else if (n < 0)
 	{
 
-		puts("%d is negative", n);
+		printf("%d is negative\n", n);
 	}
 	else
 	{
-		puts("%d is zero", n);
+		printf("%d is zero\n", n);
 	}
 	return (0);
 }
