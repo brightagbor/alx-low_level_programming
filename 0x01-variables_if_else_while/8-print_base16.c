@@ -22,7 +22,7 @@ int main(void)
 		putchar(hex_digit);
 	}
 
-	putchar("\n");
+	putchar('\n');
 	
 	return 0;
 }
