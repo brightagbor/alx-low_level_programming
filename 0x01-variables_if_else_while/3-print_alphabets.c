@@ -19,9 +19,9 @@ int main(void)
 		lower++;
 	}
 
-	putchar(" ");
+	putchar(' ');
 
-	while (upper <= "Z")
+	while (upper <= 'Z')
 	{
 		putchar(upper);
 		upper++;
