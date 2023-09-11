@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	int i, j;
+	int i;
 
 	for (i = 0; i <= 9; i++)
 	{
@@ -24,6 +24,6 @@ int main(void)
 		}
 	
 	}
-	
+
 	return (0);
 }

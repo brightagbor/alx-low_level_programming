@@ -26,6 +26,12 @@ int main(void)
 					putchar('0' + ones2);
 					putchar(',');
 					putchar(' ');
+
+					if (!(tens1 == 9 && ones1 == 8 && tens2 == 9 && ones2 == 9))
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
 		}
 	}
