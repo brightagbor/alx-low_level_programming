@@ -9,12 +9,13 @@
  * Description: This is the main funcion that 
  * displays a message and numbers.
  * It returns 0 to indicate success.
+ *
+ * Return: 0 (success)
 */
 
 int main(void)
 {
-	int n;
-	int l;
+	int n, l;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
