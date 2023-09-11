@@ -6,7 +6,7 @@
 /**
  * main - Entry point
  *
- * Description: This is the main funcion that 
+ * Description: This is the main funcion that
  * displays a message and numbers.
  * It returns 0 to indicate success.
  *
