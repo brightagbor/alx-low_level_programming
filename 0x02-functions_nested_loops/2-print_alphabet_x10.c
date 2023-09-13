@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * print_alphabet - Main Function
+ * print_alphabet_x10 - Main Function
  *
- * Description: This function uses _putchar fun to
- * print letters of the alphabet using another defined 
- * function
+ * Description: This function uses _putchar fun to print
+ * letters of the alphabet using another defined function
 */
 
 void print_alphabet_x10(void)
