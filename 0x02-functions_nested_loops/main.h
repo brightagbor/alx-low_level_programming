@@ -1,0 +1,15 @@
+#ifndef MAIN_H
+#define MAIN_H
+
+/**
+ * Description: This is a header file which contains all
+ * functions declarations in this task
+ *
+*/
+
+int _putchar(char c)
+{
+	return write(1, &c, 1);
+}
+
+#endif /* MAIN_H */
