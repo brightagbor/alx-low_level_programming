@@ -1,20 +1,12 @@
-#include <unistd.h>
+#include "main.h"
 
 /**
- * main - Entry Point
+ * print_alphabet - Main Function
  *
  * Description: This function uses _putchar fun to
  * print letters of the alphabet using another defined 
  * function
- * It returns 0 on sucess
- *
- * Return: 0 (success)
 */
-
-int _putchar(char c)
-{
-	return write(1, &c, 1);
-}
 
 void print_alphabet(void)
 {
@@ -30,11 +22,4 @@ void print_alphabet(void)
 
 		_putchar('\n');
 	}
-}
-
-int main(void)
-{
-	print_alphabet();
-
-	return (0);
 }
