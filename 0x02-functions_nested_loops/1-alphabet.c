@@ -1,19 +1,16 @@
 #include "main.h"
 
-/**
- * main - Entry Point
- *
- * Description: This function uses _putchar fun to
- * print letters of the alphabet using another defined 
- * function
- * It returns 0 on sucess
- *
- * Return: 0 (success)
-*/
-
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
+	char letter = 'a';
+
+	while (letter <= 'z')
+	{
+		_putchar(letter);
+		letter++;
+	}
+
+	_putchar('\n');
 
 	return (0);
 }
