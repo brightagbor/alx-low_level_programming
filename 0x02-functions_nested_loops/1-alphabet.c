@@ -1,4 +1,4 @@
-#include <unistd.h>
+#include "main.h"
 
 /**
  * main - Entry Point
@@ -10,24 +10,6 @@
  *
  * Return: 0 (success)
 */
-
-int _putchar(char c)
-{
-	return write(1, &c, 1);
-}
-
-void print_alphabet(void)
-{	
-	char letter = 'a';
-
-	while (letter <= 'z')
-	{
-		_putchar(letter);
-		letter++;
-	}
-
-	_putchar('\n');
-}
 
 int main(void)
 {
