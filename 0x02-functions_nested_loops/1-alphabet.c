@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * Description: This function uses _putchar function to print
+ * letters of the alphabet
+ */
+
 void print_alphabet(void)
 {
 	char letter = 'a';
