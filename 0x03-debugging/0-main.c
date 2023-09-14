@@ -2,7 +2,9 @@
 
 /**
 *  main - tests function that prints if integer is positive or negative
-*  @i : Variable name
+
+* Description: This function checks if a function is positive or 
+* negative 
 *
 *  Return: 0
 */
