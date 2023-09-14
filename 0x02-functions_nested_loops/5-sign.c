@@ -2,6 +2,7 @@
 
 /**
  * print_sign - Main Function
+ * @n: The variable to be checked
  *
  * Description: This function prints the sign
  *

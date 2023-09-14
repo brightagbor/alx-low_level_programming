@@ -2,6 +2,7 @@
 
 /**
  * _abs - Main Function
+ * @n: The variable to be checked
  *
  * Description: This function returns the abs of a number
  *

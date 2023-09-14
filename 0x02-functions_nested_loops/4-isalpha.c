@@ -2,6 +2,7 @@
 
 /**
  * _isalpha - Main Function
+ * @c: The variable to be checked
  *
  * Description: This function checks if a character is lower
  *
