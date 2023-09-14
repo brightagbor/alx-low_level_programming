@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
- * _islower - Main Function
+ * _isalpha - Main Function
  *
  * Description: This function checks if a character is lower
  *
  * Return: 0(if not lower) and 1 (if lower)
  */
 
-int _islower(int c)
+int _isalpha(int c)
 {
-	if (c >= 'a' && c <= 'z')
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 	{
 		return (1);
 	}
