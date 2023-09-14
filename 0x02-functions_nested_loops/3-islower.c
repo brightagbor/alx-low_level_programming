@@ -2,7 +2,7 @@
 
 /**
  * _islower - Main Function
- * c: The character to check
+ * @c: The character to check
  *
  * Description: This function checks if a character is lower
  *
