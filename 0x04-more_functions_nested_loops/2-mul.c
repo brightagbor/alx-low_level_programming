@@ -10,7 +10,7 @@
  * Return: 0(if not digit) and 1 (if it is a digit)
  */
 
-int mul(int a, int b);
+int mul(int a, int b)
 {
 	return (a * b);
 }
