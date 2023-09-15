@@ -3,6 +3,8 @@
 /**
  * print_line - Draws a straight line in the terminal
  * @n: The numbe rof time the character '_' should be printed
+ *
+ * Return: void
  */
 
 void print_line(int n)
@@ -19,7 +21,7 @@ void print_line(int n)
 		{
 			_putchar('_');
 		}
-
+		
 		_putchar('\n');
 	}
 }

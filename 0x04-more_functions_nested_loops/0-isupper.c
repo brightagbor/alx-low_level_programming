@@ -6,7 +6,7 @@
  *
  * Description: This function checks if a character is upper
  *
- * Return: 1 if 'c' is an uppercase letter, 0 otherwise
+ * Return: 1 (if 'c' is an uppercase letter), 0 (otherwise)
  */
 
 int _isupper(int c)
