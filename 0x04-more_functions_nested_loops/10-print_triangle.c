@@ -2,26 +2,28 @@
 
 /**
  * print_triangle- Draws a straight line in the terminal
- * @n: The numbe rof time the character '_' should be printed
+ * @size: The numbe rof time the character '_' should be printed
  *
  * Return: void
  */
 
-void print_triangle(int size);
+void print_triangle(int size)
 {
+	int i, j, k;
+
 	if (size <= 0)
 	{
 		_putchar('\n');
 	}
 
-	for (int i = 0; i <= size; i++)
+	for (i = 0; i <= size; i++)
 	{
-		for (int j = size; j > i; j--)
+		for (j = size; j > i; j--)
 		{
 			_putchar(' ');
 		}
 
-		for (int k = 1; k <= i; k++)
+		for (k = 1; k <= i; k++)
 		{
 			_putchar('#');
 		}
