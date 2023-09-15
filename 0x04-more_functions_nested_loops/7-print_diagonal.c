@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_line - Draws a straight line in the terminal
+ * prnt_diagonal - Draws a straight line in the terminal
  * @n: The numbe rof time the character '_' should be printed
  *
  * Return: void
@@ -13,14 +13,18 @@ void print_diagonal(int n)
 	{
 		_putchar('\n');
 	}
-
-	for (int i = 0; i < n; i++)
+	else
 	{
-		for (int j = 0; j < i; j++)
+		int i;
+
+		for (i = 0; i < n; i++)
 		{
-			_putchar(' ');
+			for (int j = 0; j < i; j++)
+			{
+				_putchar(' ');
+			}
+			_putchar('\\');
+			_putchar('\n');
 		}
-		_putchar('\\');
-		_putchar('\n');
 	}
 }
