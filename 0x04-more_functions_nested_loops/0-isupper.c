@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isupper - Main Function
+ * _isupper - This is the main function
  * @c: The character to check
  *
  * Description: This function checks if a character is upper
