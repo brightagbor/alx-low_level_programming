@@ -2,7 +2,7 @@
 
 /**
  * print_square - Draws a straight line in the terminal
- * @n: The numbe rof time the character '_' should be printed
+ * @size: The numbe rof time the character '_' should be printed
  *
  * Return: void
  */
@@ -12,6 +12,7 @@ void print_square(int size)
 	if (size <= 0)
 	{
 		_putchar('\n');
+		return;
 	}
 	else
 	{
