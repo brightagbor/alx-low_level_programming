@@ -2,9 +2,7 @@
 
 /**
  * main - Entry Point
- * Description: The function prints characters based on 
- * the instructions
- *
+ * 
  * Return: 0 (success)
  */
 
@@ -31,7 +29,6 @@ int main(void)
 			printf("%d ", i);
 		}
 	}
-	
 	printf("\n");
 	
 	return (0);
