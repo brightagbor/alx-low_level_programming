@@ -4,6 +4,7 @@
  * _puts - main function
  *
  * Description: The function prints a string, followed by a new line
+ * @str: Pointer to char
  *
  * Return: void
  */
