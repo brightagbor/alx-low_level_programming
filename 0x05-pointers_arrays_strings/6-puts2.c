@@ -3,7 +3,7 @@
 /**
  * puts2 - main function
  *
- * Description: The function prints every other character of a 
+ * Description: The function prints every other character of a
  * string, fostarting with the first character llowed by a new line
  * @str: Pointer to char
  *
@@ -12,7 +12,7 @@
 void puts2(char *str)
 {
 	int i;
-	
+
 	for (i = 0; str[i] != '\0'; i += 2)
 	{
 		_putchar(str[i]);
