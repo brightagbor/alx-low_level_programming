@@ -4,6 +4,8 @@
  * swap_int - main function
  *
  * Description: The function swaps two integers
+ * @a: Parameter passed to swap_int
+ * @b: Parameter passed to swap_int
  *
  * Return: void
  */

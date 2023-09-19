@@ -4,6 +4,7 @@
  * _strlen- main function
  *
  * Description: The function returns the length of a string
+ * @s: Pointer to char
  *
  * Return: length
  */
