@@ -7,7 +7,7 @@
  */
 void reset_to_98(int *n)
 {
-	if (n != NULL)
+	if (n != (int *)0)
 	{
 		*n = 98;
 	}
