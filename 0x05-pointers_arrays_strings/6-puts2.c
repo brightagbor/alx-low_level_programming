@@ -5,7 +5,7 @@
  *
  * Description: The function prints every other character of a 
  * string, fostarting with the first character llowed by a new line
- * @s: Pointer to char
+ * @str: Pointer to char
  *
  * Return: void
  */
