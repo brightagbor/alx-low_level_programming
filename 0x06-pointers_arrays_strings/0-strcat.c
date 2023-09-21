@@ -18,7 +18,6 @@
 	{
 		end_of_dest++;
 	}
-
 	while (*src != '\0')
 	{
 		*end_of_dest = *src;
