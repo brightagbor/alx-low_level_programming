@@ -2,6 +2,8 @@
 
 /**
  * *_strcat - main function
+ * @dest: Pointer to char type
+ * @src: Char pointer
  *
  * Description: The function concatenate two strings
  *
@@ -23,7 +25,6 @@
 		end_of_dest++;
 		src++;
 	}
-
 	*end_of_dest = '\0';
 
 	return (dest);
