@@ -10,7 +10,6 @@
  *
  * Return: dest
  */
-
 char *_strncat(char *dest, char *src, int n)
 {
 	char *end_of_dest = dest;
