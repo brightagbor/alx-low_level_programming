@@ -2,10 +2,11 @@
 
 /**
  * rot13 - main function
+ * @str: Pointer to char type
  *
  * Description: The function encodes a string using rot13
  *
- * Return: type returned is char
+ * Return: ptr++ of type is  returned
  */
 char *rot13(char *str)
 {
@@ -28,6 +29,7 @@ char *rot13(char *str)
 		{
 			*ptr = base + ((*ptr -base + 13) % 26);
 		}
+
 		ptr++;
 	}
 
