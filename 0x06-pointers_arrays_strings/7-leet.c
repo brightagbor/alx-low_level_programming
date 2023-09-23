@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * let - main function
+ * leet - main function
  * @str: Pointer to char
  *
  * Description: The function that encodes a string into 1337
