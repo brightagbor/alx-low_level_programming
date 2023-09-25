@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
- * *_strcat - main function
- * @dest: Pointer to char type
- * @src: Char pointer
+ * _memset - main function
+ * @s: Pointer to char type
+ * @b: Variable of typpe char
+ * @n: Variable of type unsigned int
  *
- * Description: The function concatenate two strings
- * Return: dest
+ * Description: The function fills memory with a constant byte.
+ * Return: s
  */
 char *_memset(char *s, char b, unsigned int n)
 {
