@@ -18,10 +18,8 @@ unsigned int _strspn(char *s, char *accept)
 
 		while (*pointer != '\0' && *s != *pointer)
 			pointer++;
-
 		if (*pointer == '\0')
 			break;
-
 		count++;
 		s++;
 	}
