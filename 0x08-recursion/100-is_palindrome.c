@@ -25,7 +25,7 @@ int str_length(char *s)
 int check_palindrome(char *start, char *end)
 {
 	if (start >= end)
-		retun (1);
+		return (1);
 	if (*start != *end)
 		return (0);
 
