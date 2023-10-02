@@ -12,7 +12,7 @@
 int _sqrt_helper(int n, int start, int end)
 {
 	int mid = start + (end - start) / 2;
-	long long square = (long long)mid * mid;
+	long square = (long)mid * mid;
 
 	if (start > end)
 		return (-1);

@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * is_prime_helper- main function
+ * is_divisible- main function
  * @n: Integer varible
  * @divisor: Integer variable
  * Description: The function checks for divisibility
@@ -14,7 +14,7 @@ int is_divisible(int n, int divisor)
 	if (n % divisor == 0 && divisor != n)
 		return (1);
 
-	return (is_divisible(n, divisor -1));
+	return (is_divisible(n, divisor - 1));
 }
 
 /**
