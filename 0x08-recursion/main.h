@@ -13,6 +13,8 @@ int _strlen_recursion(char *s);
 int factorial(int n);
 int _pow_recursion(int x, int y);
 int _sqrt_recursion(int n);
+int is_divisible(int n, int divisor);
+int is_prime_number_helper(int n, int divisor);
 int is_prime_number(int n);
 int str_length(char *s);
 int check_palindrome(char *start, char *end);
