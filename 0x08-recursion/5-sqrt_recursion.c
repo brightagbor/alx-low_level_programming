@@ -9,7 +9,7 @@
  *
  * Return: integer
  */
-int _sqrt_helper(int n, int start, int end);
+int _sqrt_helper(int n, int start, int end)
 {
 	int mid = start + (end - start) / 2;
 	long long square = (long long)mid * mid;
@@ -34,7 +34,7 @@ int _sqrt_helper(int n, int start, int end);
  */
 int _sqrt_recursion(int n)
 {
-	if (y < 0)
+	if (n < 0)
 		return (-1);
 	
 	return (_sqrt_helper(n, 0, n));
