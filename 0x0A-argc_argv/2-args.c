@@ -2,14 +2,16 @@
 
 /**
  * main - Main function
- * Description: The function prints the number of arguments passed into it
+ * Description: The function prints all arguments it receives
  *
  * Return: The return value is int.
  */
 int main(int argc, char *argv[])
 {
-	(void)argv;
-	
-	printf("%d\n", argc - 1);
+	int i;
+
+	for (i = 0; i < args; i++)
+		printf("%s\n", argv[i]);
+
 	return (0);
 }

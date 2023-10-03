@@ -15,11 +15,13 @@ int main(void)
 	char pid[20];
 	char command[100];
 	char path[4096];
+	FILE *pipe;
+	char *name;
 
 	snprintf(pid, sizeof(pid), "%d", getpid());
 	snprintf(command, sizeof(command), "readlink /proc/%s/exe", pid);
 
-	FILE *pipe = popen(command, "r");
+	pipe = popen(command, "r");
 	if (!pipe)
 	{
 		perror("popen");
@@ -32,7 +34,7 @@ int main(void)
 		return (EXIT_FAILURE);
 	}
 
-	char *name = basename(path);
+	name = basename(path);
 
 	printf("%s\n", name);
 	pclose(pipe);
