@@ -37,7 +37,7 @@ char **strtow(char *str)
 			word_length++;
 		else if (word_length > 0)
 		{
-			ords[word_index] = (char *)malloc((word_length + 1) * sizeof(char));
+			words[word_index] = (char *)malloc((word_length + 1) * sizeof(char));
 			
 			if (words[word_index] == NULL)
 			{

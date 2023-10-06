@@ -11,7 +11,8 @@
 char *argstostr(int ac, char **av)
 {
 	int total_length, i, current_position;
-	char *concatenated_str;	
+	char *concatenated_str;
+	
 	if (ac == 0 || av == NULL)
 		return (NULL);
 	total_length = 0;
