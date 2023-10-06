@@ -26,7 +26,7 @@ char **strtow(char *str)
 
 	/* Allocate memory for the array of strings
 	 * (words) and an extra element for NULL */
-	ords = (char **)malloc((num_words + 1) * sizeof(char *));
+	words = (char **)malloc((num_words + 1) * sizeof(char *));
 	if (words == NULL)
 		return (NULL);
 	
