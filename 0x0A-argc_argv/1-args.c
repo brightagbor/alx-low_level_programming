@@ -2,6 +2,8 @@
 
 /**
  * main - Main function
+ * @argc: Integer variable
+ * @argv: Pointer
  * Description: The function prints the number of arguments passed into it
  *
  * Return: The return value is int.
