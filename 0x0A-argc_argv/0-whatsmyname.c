@@ -1,43 +1,24 @@
+#include "main.h"
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <libgen.h>
-#include <unistd.h>
 
 /**
- * main - Main function
- * Description: The function prints the number of arguments passed into it
+ * main - Entry point
+ * @argc: The number of command line arguments
+ * @argv: An array of strings containing the command line arguments
  *
- * Return: The return value is int.
+ * Return: Always 0 (Success)
  */
-int main(void)
+int main(int argc, char *argv[])
 {
-	char pid[20];
-	char command[100];
-	char path[4096];
-	FILE *pipe;
-	char *name;
-
-	snprintf(pid, sizeof(pid), "%d", getpid());
-	snprintf(command, sizeof(command), "readlink /proc/%s/exe", pid);
-
-	pipe = popen(command, "r");
-	if (!pipe)
+	if (argc == 1)
 	{
-		perror("popen");
-		return (EXIT_FAILURE);
+		printf("%s\n", argv[0]);
 	}
-	if (fgets(path, sizeof(path), pipe) == NULL)
+	else
 	{
-		perror("fgets");
-		pclose(pipe);
-		return (EXIT_FAILURE);
+		printf("%s\n", argv[0]);
 	}
 
-	name = basename(path);
-
-	printf("%s\n", name);
-	pclose(pipe);
-
-	return (EXIT_SUCCESS);
+	return 0;
 }
+
