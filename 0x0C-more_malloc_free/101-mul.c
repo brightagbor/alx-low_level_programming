@@ -14,12 +14,14 @@ void multiply(char *num1, char *num2)
 
 int main(int argc, char *argv[])
 {
+	int i;
+
 	if (argc != 3)
 	{
 		printf("Error\n");
 		return (98);
 	}
-	for (int i = 1; i < argc; i++)
+	for (i = 1; i < argc; i++)
 	{
 		char *ptr;
 
